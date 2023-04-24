@@ -2,7 +2,10 @@
 ## Alina Khindanova, Anvit Sachdev, Shreya Kamble
 
 ## Abstract
-This project studies the effect of the COVID-19 pandemic on total personal income. We use information from the Current Population Survey (CPS) from 2017-2020. We use data from 2017-2019 to construct the model predicting individual income. We split this data into training (2017-2018) and testing sets (2019). We used three different models to predict individual income: K-nearest-neighbors (KNN), gradient-boosted tree, and random forest. Comparison between models’ performance shows that the best model to predict income is random forest – it has the smallest root mean square error (RMSE). We use this model to predict personal income for year 2020 and compare it with actual values of income. We found significant difference between income and fitted values, which indicates the positive impact of coronavirus epidemic on personal income.   
+This study investigates the impact of the COVID-19 pandemic on total personal income, using data from the Current Population Survey from 2017-2020. We constructed a model to predict individual income based on data from 2017-2019, using three different machine learning algorithms. The results showed that the random forest model had the best performance, with the smallest root mean square error. Using this model, we predicted personal income for 2020 and compared it to actual income values. The findings suggest a significant difference between income and fitted values, indicating a positive impact of the pandemic on personal income.   
+
+In summary, this study sheds light on the complex relationship between the COVID-19 pandemic and personal income, highlighting the potential for unexpected positive effects during times of crisis. The use of advanced machine learning techniques provides a powerful tool for analyzing and understanding this impact and may have important implications for policymakers and researchers working in related fields.     
+
 # Introduction
 On January 21, 2020, the Centers for Disease Control and Prevention (CDC) announced the first COVID-19 case in the USA. After that, the pandemic was spreading rapidly, and the COVID Data Tracker of CDC shows that the number of new coronavirus cases reached its peak two years later after the beginning of the pandemic – on January 19, 2020.  
 
