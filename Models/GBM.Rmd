@@ -1,0 +1,41 @@
+```{r}
+library(gbm)
+library(splitTools)
+```
+```{r}
+data1 =read.csv("data1.csv")
+data1[data1$UHRSWORKT == 999,]$UHRSWORKT=0
+data1 <- data1 %>%
+  filter(UHRSWORKT!=997)
+```
+```{r}
+train <- subset(data1, YEAR>=2017 & YEAR <= 2018) 
+valid =subset(data1 , YEAR==2019)
+```
+```{r}
+train_1=sample_n(train,100000)
+```
+```{r}
+set.seed(3451)
+inds <- partition(train_1$INCTOT, p = c(train = 0.8, test = 0.2))
+training <- train_1[inds$train, ]
+testing <- train_1[inds$test, ]
+```
+```{r}
+rmse <- function(y, pred) {
+  sqrt(mean((y - pred)^2))
+}
+```
+```{r}
+gbm.tune <- gbm(
+    formula = INCTOT ~ HEALTH + EDUC + EMPSTAT + UHRSWORKT + RACE + OCC + CITIZEN+ AGE + MARST + STATEFIP + SEX,
+    distribution = "gaussian",
+    data = train_1,
+    n.trees = 5000)
+```
+```{r}
+print(paste0("The RMSE of Gradient Boosted Tree model on test data is: ",rmse(valid$INCTOT, predict(gbm.tune, valid))))
+covid_year=subset(data1 , YEAR==2020)
+print(paste0("The RMSE of Gradient Boosted Tree model for the year 2020 is: ",rmse(covid_year$INCTOT, predict(gbm.tune, covid_year))))
+```
+
