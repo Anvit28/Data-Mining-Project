@@ -21,9 +21,9 @@ We restrict our dataset to individuals older 20 years old. Additionally, we excl
 We use three different regression models to predict individual income: K-nearest-neighbors (KNN), random forest and gradient-boosted tree. In order to fit the model, we use data for the years 2017-2018. We have used cross-validation in conjunction with hyperparameter tuning to fit the models. The test set comprises of the data points from the year 2019. We have used root mean squared error as the evaluation metric. 
 Additionally, we have also tested the performance of our models for the year 2020. For the model that best fits the data, we have used t-test to test whether the mean of difference between actual and predicted values is statistically different for the years 2019 and 2020. This is done to check whether the impact of covid on an individual's income was statistically significant.   
 ## Results
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text       | |
-Table: Table 1
+The below table shows the root mean squared error of the three models for the years 2019 and 2020:-
+| Model      | RMSE ()2019 | RMSE (2020)  |
+| ----------- | ----------- | ----------- |   
+| Header      | Title       |             |
+| Paragraph   | Text        |             |
+| Paragraph   | Text        |             |
