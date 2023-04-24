@@ -25,5 +25,5 @@ Additionally, we have also tested the performance of our models for the year 202
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
-| Paragraph   | Text        |
+| Paragraph   | Text       | |
 Table: Table 1
