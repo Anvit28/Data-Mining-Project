@@ -27,3 +27,6 @@ The below table shows the root mean squared error of the three models for the ye
 | KNN     | 59324.26     |       64277.83       |
 | Random Forest   | 58304.54      |   63211.05    |
 | Gradient-Boosted Tree   | 59354.69       |      64151.26       |
+
+  
+ We can see from the above table that radom forest is performing the best. Furthermore, we can see that for each model, the RMSE of the year 2020 is more than the RMSE of 2019. This indicates that the models fitted on 2017 and 2018 data are not able to explain the incomes of the individuals in 2020, implying that incomes in 2020 have been impacted.
