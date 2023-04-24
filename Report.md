@@ -30,6 +30,6 @@ The below table shows the root mean squared error of the three models for the ye
 
   
  We can see from the above table that radom forest is performing the best. Furthermore, we can see that for each model, the RMSE of the year 2020 is more than the RMSE of 2019. This indicates that the models fitted on 2017 and 2018 data are not able to explain the incomes of the individuals in 2020, implying that incomes in 2020 has been impacted. To gather further evidence, we used t-test to test whether the mean of difference between actual and predicted values is statistically different for the years 2019 and 2020. We find that the mean of the difference between actual and predicted values for the years 2019 and 2020 is 1223.556 and 4801.022, respectively.  The p-value between them is less than< 2.2e-16 implying that the difference between the two values is statistically different.
- The below figure shows the histogram of log of income for the years 2019 and 2020. 
- ![MarineGEO circle logo](actual_and_predicted_income.png "MarineGEO logo")
+ The below figure shows the histogram of log of income for the years 2019 and 2020:-    
+ ![](actual_and_predicted_income.png "Figure 1")
   
