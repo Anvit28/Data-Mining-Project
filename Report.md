@@ -15,3 +15,9 @@ We use information from the Current Population survey (CPS) from 2017-2020. Our 
 * Hours usually worked per week 
 * Educational attainment recode 
 * Self-reported health 
+  
+We restrict our dataset to individuals older 20 years old. Additionally, we exclude individuals whose hours usually worked per week vary. 
+  
+We use three different regression models to predict individual income: K-nearest-neighbors (KNN), random forest and gradient-boosted tree. In order to fit the model, we use data for the years 2017-2018. We have used cross-validation in conjunction with hyperparameter tuning to fit the models. The test set comprises of the data points from the year 2019. We have used root mean squared error as the evaluation metric. 
+Additionally, we have also tested the performance of our models for the year 2020. For the model that best fits the data, we have used t-test to test whether the mean of difference between actual and predicted values is statistically different for the years 2019 and 2020. This is done to check whether the impact of covid on an individual's income was statistically significant.   
+
