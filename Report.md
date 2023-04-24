@@ -24,6 +24,6 @@ Additionally, we have also tested the performance of our models for the year 202
 The below table shows the root mean squared error of the three models for the years 2019 and 2020:-
 | Model      | RMSE ()2019 | RMSE (2020)  |
 | ----------- | ----------- | ----------- |   
-| Header      | Title       |             |
-| Paragraph   | Text        |             |
-| Paragraph   | Text        |             |
+| KNN     | 59324.26     |       64277.83       |
+| Random Forest   | 58304.54      |   63211.05    |
+| Gradient-Boosted Tree   | 59354.69       |      64151.26       |
