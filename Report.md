@@ -1,3 +1,6 @@
+# Impact of Coronavirus Pandemic on US Citizens Income
+## Alina Khindanova, Anvit Sachdev, Shreya Kamble
+
 ## Abstract
 This project studies the effect of the COVID-19 pandemic on total personal income. We use information from the Current Population Survey (CPS) from 2017-2020. We use data from 2017-2019 to construct the model predicting individual income. We split this data into training (2017-2018) and testing sets (2019). We used three different models to predict individual income: K-nearest-neighbors (KNN), gradient-boosted tree, and random forest. Comparison between models’ performance shows that the best model to predict income is random forest – it has the smallest root mean square error (RMSE). We use this model to predict personal income for year 2020 and compare it with actual values of income. We found significant difference between income and fitted values, which indicates the positive impact of coronavirus epidemic on personal income.   
 # Introduction
