@@ -45,3 +45,17 @@ The below table shows the root mean squared error of the three models for the ye
    
  The above figure shows the relationship between actual income and predicted income, with the income on the x-axis and frequency on the y-axis. The plot of actual income value is above the predicted income values in 2020. We can see that the pandemic has affected different different parts of the population in different ways. The plot indicates that a lot of people’s income shifted to the middle-income group during 2020. We can also see from the plot people's income shifted to a lower category than the pre-covid years.  
  
+## References
+Ahmad, Farida B., Jodi A. Cisewski, Arialdi Miniño, and Robert N. Anderson. 2021. “Provisional Mortality Data — United States, 2020.” Morbidity and Mortality Weekly Report 70 (14): 519–22   
+
+Alsan, Marcella, Amitabh Chandra, and Kosali Simon. "The great unequalizer: initial health effects of COVID-19 in the United States." Journal of Economic Perspectives 35.3 (2021): 25-46.   
+
+Couch, Kenneth A., Robert W. Fairlie, and Huanan Xu. "Early evidence of the impacts of COVID-19 on minority unemployment." Journal of public economics 192 (2020): 104287.   
+
+Fairlie, Robert W., Kenneth Couch, and Huanan Xu. The impacts of COVID-19 on minority unemployment: First evidence from April 2020 CPS microdata. No. w27246. National Bureau of Economic Research, 2020.   
+
+Esobi, I. C., et al. "Food insecurity, social vulnerability, and the impact of COVID-19 on population dependent on public assistance/SNAP: A case study of South Carolina, USA." Journal of Food Security 9.1 (2021): 8-18.   
+
+van Kooten, G. Cornelis, and Andrew Schmitz. "COVID-19 impacts on US lumber markets." Forest policy and economics 135 (2022): 102665.   
+
+Nguyen, Ly, and Andrew Schmitz. "The welfare impacts of Covid-19 on the US salmon sector." Applied Economics 55.22 (2023): 2579-2595.   
